@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en-AU">
+
+<head>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+
+<body>
+
+    <h1>Welcome to the LP Tech Website Portal</h1>
+    <p title="Test">Enter your WebCode here<br></p>
+
+    <input type="text" id="choose">
+
+    <button id="button" class="button" onclick="chooseSite()">Press here to redirect to site</button>
+
+    <script>
+        function chooseSite() {
+            var x = document.getElementById("choose").value;
+            if (x == "0001") {
+                window.location.href = "https://anchor.fm/random-access"
+            } else if (x == "0002") {
+                window.location.href = "https://stavrosmavros.wixsite.com/tra2"
+            } else if (x == "0017") {
+                window.location.href = "https://wix.com"
+            } else if (x == "0018") {
+                window.location.href = "https://youtube.com"
+            } else if (x == "0005") {
+                window.location.href = "https://techradar.com/au"
+            } else if (x == "0006") {
+                window.location.href = "https://au.pcmag.com"
+            } else if (x == "0007") {
+                window.location.href = "https://youtube.com/@tra2"
+            } else if (x == "0008") {
+                window.location.href = "https://freenom.com"
+            } else if (x == "0009") {
+                window.location.href = "https://projects.raspberrypi.org"
+            } else if (x == "0010") {
+                window.location.href = "https://studio.youtube.com/channel/UCkftoF3igj3JSgQV06BxWUQ"
+            } else if (x == "0011") {
+                window.location.href = "https://studio.youtube.com/channel/UCkftoF3igj3JSgQV06BxWUQ/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D"
+            } else if (x == "0012") {
+                window.location.href = "https://w3schools.com"
+            } else if (x == "0013") {
+                window.location.href = "https://espn.com"
+            } else if (x == "0015") {
+                window.location.href = "https://convertio.co"
+            } else if (x == "0014") {
+                window.location.href = "https://cbssports.com"
+            } else if (x == "0029") {
+                window.location.href = "https://au.pcpartpicker.com"
+            } else if (x == "0003") {
+                window.location.href = "https://anchor.fm"
+            } else if (x == "0004") {
+                window.location.href = "https://mail.google.com"
+            } else if (x == "0019") {
+                window.location.href = "https://7plus.com.au"
+            } else if (x == "0020") {
+                window.location.href = "https://7plus.com.au/live-tv?channel-id=7Mate"
+            } else if (x == "0021") {
+                window.location.href = "https://support.serato.com/hc/en-us/categories/115000446013-Serato-DJ-Lite-knowledge-base"
+            } else if (x == "0022") {
+                window.location.href = "https://en.wikipedia.org"
+            } else if (x == "0023") {
+                window.location.href = "https://whitepages.com.au"
+            } else if (x == "0024") {
+	    	    window.location.href = "https://time.is/ET"
+	        } else if (x == "0026") {
+		        window.location.href = "https://tunein.com/radio/GREEK-HITS-s259442/"
+	        } else if (x == "0025") {
+		        window.location.href = "https://tunein.com/radio"	
+	        } else if (x == "0027") {
+                window.location.href = "https://outlook.live.com/owa"
+	        } else if (x == "0028") {
+                window.location.href = "file:///C:/LEON/Coding/BibleReaderPro/bible_reader.html"
+            } else if (x == "0016") {
+                window.location.href = "https://nflgamepass.com/en"
+            } else {
+                alert("Website not found. Please enter a valid WebCode. Please refer to the list of valid WebCodes is available below")
+            }
+            
+        }
+    </script>
+
+    <script>
+        var input = document.getElementById("choose");
+
+        input.addEventListener("keypress", function(event) {
+            if(event.key === "Enter") {
+                event.preventDefault();
+                document.getElementById("button").click();
+                if (input == "0001") {
+                window.location.href = "https://anchor.fm/random-access"
+            } else if (input == "0002") {
+                window.location.href = "https://stavrosmavros.wixsite.com/tra2"
+            } else if (input == "0017") {
+                window.location.href = "https://wix.com"
+            } else if (input == "0018") {
+                window.location.href = "https://youtube.com"
+            } else if (input == "0005") {
+                window.location.href = "https://techradar.com/au"
+            } else if (input == "0006") {
+                window.location.href = "https://au.pcmag.com"
+            } else if (input == "0007") {
+                window.location.href = "https://youtube.com/@tra2"
+            } else if (input == "0008") {
+                window.location.href = "https://freenom.com"
+            } else if (input == "0009") {
+                window.location.href = "https://projects.raspberrypi.org"
+            } else if (input == "0010") {
+                window.location.href = "https://studio.youtube.com/channel/UCkftoF3igj3JSgQV06BxWUQ"
+            } else if (input == "0011") {
+                window.location.href = "https://studio.youtube.com/channel/UCkftoF3igj3JSgQV06BxWUQ/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D"
+            } else if (input == "0012") {
+                window.location.href = "https://w3schools.com"
+            } else if (input == "0013") {
+                window.location.href = "https://espn.com"
+            } else if (input == "0015") {
+                window.location.href = "https://convertio.co"
+            } else if (input == "0014") {
+                window.location.href = "https://cbssports.com"
+            } else if (input == "0029") {
+                window.location.href = "https://au.pcpartpicker.com"
+            } else if (input == "0003") {
+                window.location.href = "https://anchor.fm"
+            } else if (input == "0004") {
+                window.location.href = "https://mail.google.com"
+            } else if (input == "0019") {
+                window.location.href = "https://7plus.com.au"
+            } else if (input == "0020") {
+                window.location.href = "https://7plus.com.au/live-tv?channel-id=7Mate"
+            } else if (input == "0021") {
+                window.location.href = "https://support.serato.com/hc/en-us/categories/115000446013-Serato-DJ-Lite-knowledge-base"
+            } else if (input == "0022") {
+                window.location.href = "https://en.wikipedia.org"
+            } else if (input == "0023") {
+                window.location.href = "https://whitepages.com.au"
+            } else if (input == "0024") {
+	    	    window.location.href = "https://time.is/ET"
+	        } else if (input == "0026") {
+		        window.location.href = "https://tunein.com/radio/GREEK-HITS-s259442/"
+	        } else if (input == "0025") {
+		        window.location.href = "https://tunein.com/radio"	
+	        } else if (input == "0027") {
+                window.location.href = "https://outlook.live.com/owa"
+	        } else if (input == "0028") {
+                window.location.href = "file:///C:/LEON/Coding/BibleReaderPro/bible_reader.html"
+            } else if (input == "0016") {
+                window.location.href = "https://nflgamepass.com/en"
+            } else {
+                alert("Website not found. Please enter a valid WebCode. Please refer to the list of valid WebCodes is available below")
+            }
+            }
+        })
+    </script>
+ 
+    <p>0001 = The Random Access 2#0w Anchor Homepage</p>
+    <p>0002 = The Random Access 2#0w Website</p>
+    <p>0003 = Anchor</p>
+    <p>0004 = The Random Access 2#0w Inbox</p>
+    <p>0005 = TechRadar</p>
+    <p>0006 = PCMag</p>
+    <p>0007 = TRA2 YouTube Channel</p>
+    <p>0008 = Freenom Domain Registrar</p>
+    <p>0009 = Raspberry Pi Projects Page</p>
+    <p>0010 = YouTube Creator Studio</p>
+    <p>0011 = YouTube Video Quick Upload</p>
+    <p>0012 = w3schools</p>
+    <p>0013 = ESPN</p>
+    <p>0014 = CBS Sports</p>
+    <p>0015 = Convertio</p>
+    <p>0016 = NFL Game Pass</p>
+    <p>0017 = WiX Dashboard</p>
+    <p>0018 = YouTube</p>
+    <p>0019 = 7Plus</p>
+    <p>0020 = 7Mate Live TV</p>
+    <p>0021 = Serato DJ Lite Support</p>
+    <p>0022 = Wikipedia</p>
+    <p>0023 = WhitePages</p>
+    <p>0024 = Eastern Time Now</p>
+    <p>0025 = TuneIn Radio</p>
+    <p>0026 = Greek Hits Radio on TuneIn</p>
+    <p>0027 = Outlook Online</p>
+    <p>0028 = BibleReaderPro on the Web</p>
+    <p>0029 = PCPartPickerAU</p>
+    <p>Make sure to use a valid WebCode</p>
+
+</body>
+</html>
