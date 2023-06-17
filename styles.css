@@ -1,0 +1,66 @@
+passage {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pagelink {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;   
+    background-color: blanchedalmond;
+}
+
+.pagelink {border-radius: 25px;}
+
+.pagelink:hover {
+    background-color: white;
+    cursor: pointer
+}
+
+passage::after{
+    content: "\a";
+    white-space: pre;
+}
+
+a:link {
+    color: rgb(252, 2, 2);
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:visited {
+    color: rgb(253, 3, 3);
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+  }
